@@ -28,7 +28,7 @@ const emailOlvidePassword = async (datos) => {
             <h1>APV</h1>
             <p>Hola ${nombre}, has solicitado reestablecer tu password</p>
             <p>Haz click en el siguiente enlace
-            <a href="${process.env.FRONTEND_URL}/olvide-password/${token}">Reestablecer Password</a>
+            <a href="${process.env.FRONTEND_URL}/#/olvide-password/${token}">Reestablecer Password</a>
             </p>
             <p>Si tu no creaste esta cuenta fijate que onda 
             </p>
